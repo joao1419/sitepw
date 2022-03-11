@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BootStrap</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <nav class="navbar navbar-light bg-light">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#">
+                                <img src="img/spotifylogo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                                Albuns
+                            </a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="index.html">3 albuns que eu ouvi na semana</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            outros
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                            <li><a class="dropdown-item" href="action.html">Billie Eilish</a></li>
+                                            <li><a class="dropdown-item" href="anothe_action.html">Mac Miller</a></li>
+                                            <li><a class="dropdown-item" href="something_else here.html">Derek</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/album_1.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/album_2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/album_3.png" width="1920" lenght="1080"  class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div style='text-align: left;' class="col">
+                    <figure class="figure">
+                       <a href="https://open.spotify.com/album/7nENftFYJ7fJCxHtqPKG1r?si=sqU93UXTS5On-gJEZbO52g"><img src="img/petricor.png" class="figure-img img-fluid rounded" alt="..."></a> 
+                        <figcaption class="figure-caption text-right">Petricor</figcaption>
+                    </figure>
+                </div>
+                <div style='text-align: center;' class="col">
+                    <figure class="figure">
+                        <a href="https://open.spotify.com/track/1MONUudxAjEk76FJvzGhuD?si=d559f577ba774ce4">   <img src="img/likeyoudo.png" class="figure-img img-fluid rounded" alt="..."> </a>
+                        <figcaption class="figure-caption text-right">Like you do</figcaption>
+                    </figure>
+                </div>
+                <div style='text-align: right;' class="col" >
+                    <figure class="figure">
+                      <a href="https://open.spotify.com/album/00vTGW7shhgjFSL1lTvNEo?si=hzjFu-0qQKa5VEJA7bZjpQ">  <img src="img/heroidofuturo.png" class="figure-img img-fluid rounded" alt="..."> </a>
+                        <figcaption class="figure-caption text-right">Herói do futuro</figcaption>
+                      </figure>
+                      
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</html>
